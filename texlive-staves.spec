@@ -55,6 +55,7 @@ support.
 #- source
 %doc %{_texmfdistdir}/source/latex/staves/staves.dtx
 %doc %{_texmfdistdir}/source/latex/staves/staves.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -65,3 +66,5 @@ support.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
