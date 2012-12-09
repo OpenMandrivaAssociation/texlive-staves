@@ -55,3 +55,18 @@ support.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20080823-2
++ Revision: 756243
+- Rebuild to reduce used resources
+
+* Mon Nov 07 2011 Paulo Andrade <pcpa@mandriva.com.br> 20080823-1
++ Revision: 727838
+- texlive-staves
+- texlive-staves
+- texlive-staves
+- texlive-staves
+- texlive-staves
+
