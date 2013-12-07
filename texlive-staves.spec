@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-staves
 Version:	20080823
-Release:	3
+Release:	4
 Summary:	Typeset Icelandic staves and runic letters
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/staves
