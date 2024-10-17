@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Typeset Icelandic staves and runic letters
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/language/staves
+URL:		https://www.ctan.org/tex-archive/language/staves
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/staves.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/staves.doc.r%{version}.tar.xz
